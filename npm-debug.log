@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'prefix',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 warn invalid config loglevel="notice"
+5 verbose stack Error: Cannot find module 'undefined'
+5 verbose stack     at Function.Module._resolveFilename (module.js:338:15)
+5 verbose stack     at Function.Module._load (module.js:289:25)
+5 verbose stack     at Module.require (module.js:366:17)
+5 verbose stack     at require (module.js:385:17)
+5 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:287:7)
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\npm.js:376:14
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\config\core.js:82:7
+5 verbose stack     at Array.forEach (native)
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\config\core.js:81:13
+5 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:17:25)
+6 verbose cwd E:\Poc\reapscore\reapscore
+7 error Windows_NT 6.1.7601
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "prefix" "-g"
+9 error node v4.2.4
+10 error npm  v2.14.12
+11 error code MODULE_NOT_FOUND
+12 error Cannot find module 'undefined'
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]

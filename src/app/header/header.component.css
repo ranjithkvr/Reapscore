@@ -1,0 +1,27 @@
+body {
+  margin: 0; }
+
+/* header */
+header nav {
+  background: #0624ca;
+  border-radius: 0;
+  border: none; }
+
+header nav p {
+  color: #fff; }
+
+header nav a {
+  color: #fff; }
+
+header .navbar {
+  min-height: 80px; }
+
+header .navbar-brand {
+  font-size: 2.5em; }
+
+header .navbar-text {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+header .navbar-text a {
+  color: #b7c1fe; }
